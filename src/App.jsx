@@ -161,7 +161,7 @@ const App = () => {
   }, [selectedTrack]);
 
   return (
-    <div className="w-screen h-screen bg-black text-white justify-items-center">
+    <div className="w-screen h-screen bg-neutral-950 text-white justify-items-center">
       {loading ? (
         <p>Loading...</p>
       ) : (
