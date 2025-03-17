@@ -209,7 +209,7 @@ const App = () => {
                     key={track.id}
                     onClick={() => handleTrackSelect(track)}
                   >
-                    {track.name}pppsdfsdf
+                    {track.name}
                   </li>
                 ))}
               </ul>
