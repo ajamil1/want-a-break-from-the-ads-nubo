@@ -200,7 +200,7 @@ const App = () => {
                   </svg>
             </button>
           </div>
-          <button className="w-fit mx-auto my-2" onClick={toggleTracklist}>Tracklistsdfdsfds</button>
+          <button className="w-fit mx-auto my-2" onClick={toggleTracklist}>Tracklist</button>
             {show && (
               <ul className="text-left top-0 overflow-y-scroll bg-black px-12">
                 {trackList.map((track) => (
